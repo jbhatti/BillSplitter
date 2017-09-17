@@ -13,6 +13,7 @@
 		88DEDA931F6DFB4E007E5D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88DEDA911F6DFB4E007E5D03 /* Main.storyboard */; };
 		88DEDA951F6DFB4E007E5D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88DEDA941F6DFB4E007E5D03 /* Assets.xcassets */; };
 		88DEDA981F6DFB4E007E5D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88DEDA961F6DFB4E007E5D03 /* LaunchScreen.storyboard */; };
+		88DEDAA11F6F154F007E5D03 /* CalculateSplitAmt.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DEDAA01F6F154F007E5D03 /* CalculateSplitAmt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		88DEDA941F6DFB4E007E5D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88DEDA971F6DFB4E007E5D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88DEDA991F6DFB4E007E5D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88DEDA9F1F6F154F007E5D03 /* CalculateSplitAmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateSplitAmt.h; sourceTree = "<group>"; };
+		88DEDAA01F6F154F007E5D03 /* CalculateSplitAmt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateSplitAmt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				88DEDA961F6DFB4E007E5D03 /* LaunchScreen.storyboard */,
 				88DEDA991F6DFB4E007E5D03 /* Info.plist */,
 				88DEDA881F6DFB4E007E5D03 /* Supporting Files */,
+				88DEDA9F1F6F154F007E5D03 /* CalculateSplitAmt.h */,
+				88DEDAA01F6F154F007E5D03 /* CalculateSplitAmt.m */,
 			);
 			path = BillSplitter2;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				88DEDA901F6DFB4E007E5D03 /* ViewController.m in Sources */,
 				88DEDA8D1F6DFB4E007E5D03 /* AppDelegate.m in Sources */,
+				88DEDAA11F6F154F007E5D03 /* CalculateSplitAmt.m in Sources */,
 				88DEDA8A1F6DFB4E007E5D03 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CalculateSplitAmt.h"
 
 @interface ViewController : UIViewController
 
